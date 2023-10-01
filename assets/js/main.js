@@ -47,7 +47,6 @@ function getResult(imc) {
 
 form.addEventListener('submit', function (event) {
     event.preventDefault();
-    console.log('Evento prevenido');
     const imc = getValue();
     console.log(imc);
     getResult(imc);
